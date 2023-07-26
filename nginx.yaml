@@ -4,7 +4,6 @@ metadata:
   name: my-nginx-svc
   labels:
     app: nginx
-  namespace: aaa
 spec:
   type: LoadBalancer
   ports:
@@ -18,7 +17,6 @@ metadata:
   name: my-nginx
   labels:
     app: nginx
-  namespace: aaa
 spec:
   replicas: 4
   selector:
